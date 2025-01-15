@@ -14,13 +14,17 @@ export const AppContextProvider = ({ children }: { children: React.ReactNode }) 
         return initialTheme;
     });
 
+    // useEffect(() => {
+    //     const mode = localStorage.getItem("theme") as ThemeContextType;
+    //     if (mode) {
+    //         setTheme(mode);
+    //         document.documentElement.setAttribute('data-bs-theme', mode);
+    //     }
+    // }, [])
     useEffect(() => {
-        const mode = localStorage.getItem("theme") as ThemeContextType;
-        if (mode) {
-            setTheme(mode);
-            document.documentElement.setAttribute('data-bs-theme', mode);
-        }
-    }, [])
+        document.documentElement.setAttribute('data-bs-theme', theme);
+        localStorage.setItem("theme", theme);
+    }, [theme]);
 
     return (
         <AppContext.Provider value={{
