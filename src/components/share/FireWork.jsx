@@ -7,13 +7,13 @@ const FireworksEffect = ({ style }) => {
 
         if (container) {
             const fireworks = new Fireworks(container, {
-                traceSpeed: 1,
-                acceleration: 1.05,
+                traceSpeed: 0.5,
+                acceleration: 1.01,
                 friction: 0.98,
                 gravity: 1.5,
                 particles: 200,
-                explosion: 5,
-                trace: 3,
+                explosion: 1,
+                trace: 2,
                 sound: {
                     enable: true,
                 },

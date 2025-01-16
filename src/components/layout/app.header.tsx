@@ -55,13 +55,13 @@ function AppHeader() {
                 {/* <img src={caudoi} alt="Hoa đào" style={{ height: 500, width: 100, marginRight: 10 }} /> */}
                 <Container>
 
-                    <img src={lixidung} alt="Hoa đào" style={{ height: 50, marginRight: 10 }} />
+                    <img src={lixidung} alt="Hoa đào" style={{ height: 50, marginRight: 10, marginBottom: 10 }} />
                     <Link className="navbar-brand" to="/">
                         <span className='brand-green'>
                             {t("appHeader.brand")}
                         </span>
                     </Link>
-                    <img src={lixidung} alt="Bao lì xì" style={{ height: 50, marginLeft: 10 }} />
+                    <img src={lixidung} alt="Bao lì xì" style={{ height: 50, marginLeft: 10, marginBottom: 10 }} />
                     <Navbar.Toggle aria-controls="basic-navbar-nav" style={{ backgroundColor: "#3e1e41", border: '1px solid' }} />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
