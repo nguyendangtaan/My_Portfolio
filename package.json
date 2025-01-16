@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "bootstrap": "5.3.3",
+    "fireworks-js": "^2.10.8",
     "i18next": "23.16.0",
     "i18next-browser-languagedetector": "8.0.0",
     "i18next-http-backend": "2.6.2",
@@ -28,6 +29,9 @@
     "react-icons": "5.3.0",
     "react-parallax-tilt": "1.7.246",
     "react-router-dom": "6.27.0",
+    "react-tsparticles": "^2.12.2",
+    "tsparticles": "^2.12.0",
+    "tsparticles-engine": "^2.12.0",
     "typewriter-effect": "2.21.0"
   },
   "devDependencies": {
