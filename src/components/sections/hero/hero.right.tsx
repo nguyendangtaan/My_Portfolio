@@ -27,7 +27,7 @@ const HeroRight = () => {
                     <div className="ms-4 me-2 text-pink-200">
                         <span className="text-white-0">skills:</span>
                         <span>{`['`}</span>
-                        <span >React</span>
+                        <span >ReactJs</span>
                         <span>{"', '"}</span>
                         <span >Laravel</span>
                         <span>{"', '"}</span>
@@ -37,7 +37,7 @@ const HeroRight = () => {
                         <span>{"', '"}</span>
                         <span >Bootstrap</span>
                         <span>{"', '"}</span>
-                        <span >Tailwind</span>
+                        <span >VueJs</span>
                         <span>{"', '"}</span>
                         <span > Git</span>
                         <span>{"', '"}</span>

@@ -23,7 +23,7 @@ export const EXPERIENCES = [
         },
         duration: {
             vi: "Tháng 12/2024 - Hiện tại",
-            en: "December 2024 - Present"
+            en: "December 2024 - February 2025"
         }
     },
     {
@@ -34,8 +34,8 @@ export const EXPERIENCES = [
         },
 
         company: {
-            vi: "Công Ty ABCXYZ (example)",
-            en: "Company ABCXYZ (example)"
+            vi: "Công Ty ABCXYZ ",
+            en: "Company ABCXYZ "
         },
         duration: {
             vi: "Tháng 9/2024 - Tháng 11/2024",
@@ -52,7 +52,7 @@ export const PROJECTS = [
         description: "AuroraBookstore is an online bookstore website featuring full functionalities such as product management (CRUD), shopping cart, payment, product reviews, advanced search, and sales statistics.",
         techstack: "ReactJS, Laravel, MySQL, Bootstrap",
         team_size: "4",
-        githubLink: "",
+        githubLink: "https://github.com/nguyendangtaan/Bookstore-React-Laravel_11-.git",
         demoLink: "https://www.youtube.com/watch?v=tDex_XrwF4g"
     },
     {
@@ -112,10 +112,10 @@ export const SKILLS_DATA = [
     'CSS',
     'Canva',
     'Javascript',
-    'Typescript',
+    // 'Typescript',
     'React',
     // 'Next JS',
-    'Tailwind',
+    // 'Tailwind',
     // 'MongoDB',
     'MySQL',
     // 'PostgreSQL',
@@ -125,7 +125,7 @@ export const SKILLS_DATA = [
     'Docker',
     // 'Go',
     'Figma',
-    'Firebase',
+    // 'Firebase',
     'Java',
     'Python',
     'PHP'    // 'MaterialUI',
