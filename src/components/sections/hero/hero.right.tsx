@@ -41,7 +41,7 @@ const HeroRight = () => {
                         <span>{"', '"}</span>
                         <span > Git</span>
                         <span>{"', '"}</span>
-                        <span >Docker</span>
+                        <span >Tailwind CSS</span>
                         <span>{"'],"}</span>
                     </div>
                     <div>

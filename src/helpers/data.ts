@@ -1,12 +1,14 @@
 import AuroraImg from 'assets/project/aurora.png';
 import newImg from 'assets/project/new.jpeg';
 import FigmaImg from 'assets/project/figma.jpg';
+import Laravel_vue from 'assets/project/Laravel_vue.jpg';
+
 
 
 export const APP_DATA = {
     YOUTUBE_URL: "https://youtu.be/tDex_XrwF4g",
-    TIKTOK_URL: "https://www.tiktok.com/@dangtaann",
-    INSTAGRAM_URL: "https://www.instagram.com/dangtaann/",
+    GITHUB_URL: "https://github.com/nguyendangtaan",
+    LINKEDIN_URL: "https://www.linkedin.com/in/t%C3%A2n-nguy%E1%BB%85n-%C4%91%C4%83ng-0ab073266/",
     FACEBOOK_URL: "https://www.facebook.com/dangtana00"
 }
 
@@ -14,32 +16,32 @@ export const EXPERIENCES = [
     {
         id: 1,
         title: {
-            vi: "Thực tập sinh lập trình viên",
-            en: "Developer Intern"
+            vi: "",
+            en: ""
         },
         company: {
-            vi: "PhuQuocDev",
-            en: "PhuQuocDev"
+            vi: "",
+            en: ""
         },
         duration: {
-            vi: "Tháng 12/2024 - Hiện tại",
-            en: "December 2024 - February 2025"
+            vi: "",
+            en: ""
         }
     },
     {
         id: 2,
         title: {
-            vi: "Lập trình viên FullStack",
-            en: "FullStack Developer"
+            vi: "",
+            en: ""
         },
 
         company: {
-            vi: "Công Ty ABCXYZ ",
-            en: "Company ABCXYZ "
+            vi: "",
+            en: ""
         },
         duration: {
-            vi: "Tháng 9/2024 - Tháng 11/2024",
-            en: "Semester 2024 - November 2024"
+            vi: "",
+            en: ""
         }
     },
 ]
@@ -48,8 +50,8 @@ export const PROJECTS = [
     {
         id: 1,
         imgPath: AuroraImg,
-        title: "AuroraBookstore Website ",
-        description: "AuroraBookstore is an online bookstore website featuring full functionalities such as product management (CRUD), shopping cart, payment, product reviews, advanced search, and sales statistics.",
+        title: "Aurora Ecommerce (Rest API)",
+        description: "Developed Aurora Ecommerce, an online bookstore platform with a modern React frontend and Laravel API backend. The system supports user registration/login, advanced book search and filtering, cart management, order placement, product reviews, order history, and admin management features.",
         techstack: "ReactJS, Laravel, MySQL, Bootstrap",
         team_size: "4",
         githubLink: "https://github.com/nguyendangtaan/Bookstore-React-Laravel_11-.git",
@@ -59,7 +61,7 @@ export const PROJECTS = [
         id: 2,
         imgPath: FigmaImg,
         title: "YumDaily-Social Cooking (UI/UX)",
-        description: "YumDaily is a social cooking platform designed to connect food enthusiasts, allowing users to share recipes, discover new dishes, and engage with a community of like-minded individuals.",
+        description: "YumDaily is a social platform for cooking enthusiasts to share recipes, food photos, cooking videos, and discover culinary ideas from the community. The user interface was designed to be clean, intuitive, and accessible to users of all ages.",
         techstack: "Figma",
         team_size: "10",
         githubLink: "",
@@ -67,55 +69,26 @@ export const PROJECTS = [
     },
     {
         id: 3,
-        imgPath: newImg,
-        title: "Add new project",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        techstack: "",
-        team_size: "",
-        githubLink: "",
+        imgPath: Laravel_vue,
+        title: "LAPTOPSHOP (REST API)",
+        description: "Developed a full-featured e-commerce system with product, category, brand, order, payment, and user management functionalities. The backend is built with Laravel, while the frontend uses Vue.js and Tailwind CSS, connected via Inertia.js. The system supports authentication, authorization.",
+        techstack: "VueJS, Laravel, SQL Lite, Taiwind CSS",
+        team_size: "1",
+        githubLink: "https://github.com/nguyendangtaan/Ecommerce_Laravel_Vuejs.git",
         demoLink: ""
     },
-    {
-        id: 4,
-        imgPath: newImg,
-        title: "Add new project",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        techstack: "",
-        team_size: "",
-        githubLink: "",
-        demoLink: ""
-    },
-    {
-        id: 5,
-        imgPath: newImg,
-        title: "Add new project",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        techstack: "",
-        team_size: "",
-        githubLink: "",
-        demoLink: ""
-    },
-    {
-        id: 6,
-        imgPath: newImg,
-        title: "Add new project",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        techstack: "",
-        team_size: "",
-        githubLink: "",
-        demoLink: ""
-    }
+    
 ]
 
 export const SKILLS_DATA = [
     'HTML',
     'CSS',
-    'Canva',
+    'Dart',
     'Javascript',
     // 'Typescript',
     'React',
     // 'Next JS',
-    // 'Tailwind',
+    'Tailwind',
     // 'MongoDB',
     'MySQL',
     // 'PostgreSQL',
@@ -127,7 +100,7 @@ export const SKILLS_DATA = [
     'Figma',
     // 'Firebase',
     'Java',
-    'Python',
+    // 'Python',
     'PHP'    // 'MaterialUI',
     // 'Nginx',
     // 'Strapi'

@@ -10,7 +10,7 @@ import Divider from "components/sections/divider";
 import Experience from "components/sections/experience";
 import Skill from "components/sections/skill";
 import { useRef } from "react";
-import FireworksEffect from "components/share/FireWork";
+
 
 
 
@@ -19,17 +19,19 @@ const HomePage = () => {
     const { t } = useTranslation();
 
     const expRef = useRef<HTMLElement>(null);
+    const skillRef = useRef<HTMLElement>(null);
+
     const scrollToExperienceSection = () => {
         expRef.current?.scrollIntoView({ behavior: "smooth" })
+    }
+
+    const scrollToSkillSection = () => {
+        skillRef.current?.scrollIntoView({ behavior: "smooth" })
     }
 
     return (
 
         <div className="homepage-screen">
-
-            <FireworksEffect style={{
-            }} />
-
 
             <div style={{
                 backgroundImage: `url(${bg})`,
@@ -43,9 +45,6 @@ const HomePage = () => {
             </div>
 
             <section className="mt-md-7 mt-2 d-flex"  >
-                {/* <div className="" >
-                    <img src={caudoi} alt="Hoa đào" style={{ height: 300, width: 100, marginLeft: 20 }} />
-                </div> */}
 
                 <Container
                     style={{ position: "relative" }}
@@ -53,7 +52,8 @@ const HomePage = () => {
                     <Row>
                         <Col className="d-none d-md-block" md={6}>
                             <HeroLeft
-                                scrollToExperienceSection={scrollToExperienceSection} />
+                                scrollToExperienceSection={scrollToExperienceSection}
+                                scrollToSkillSection={scrollToSkillSection} />
                         </Col>
                         <Col md={6}>
                             <HeroRight />
@@ -66,10 +66,6 @@ const HomePage = () => {
                         </Col>
                     </Row>
                 </Container>
-                {/* <div>
-                    <img src={caudoi} alt="Hoa đào" style={{ height: 300, width: 100, top: 0 }} />
-                </div> */}
-
             </section>
 
             <section>
@@ -78,13 +74,13 @@ const HomePage = () => {
                 </Container>
             </section>
             <Divider />
-            <section ref={expRef}>
+            {/* <section ref={expRef}>
                 <Container>
                     <Experience />
                 </Container>
-            </section>
+            </section> */}
             <Divider />
-            <section>
+            <section ref={skillRef}>
                 <Container>
                     <Skill />
                 </Container>

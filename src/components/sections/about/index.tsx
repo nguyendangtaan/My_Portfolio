@@ -18,10 +18,7 @@ const About = () => {
                     <h3 className="text-center mb-md-5 mb-2">Know Who <span className="brand-red">I'M</span> </h3>
                     <div>
                         <div>
-                            <p> Hi Everyone, I am Nguyen Dang Tan from the Pearl Island of Phu Quoc, VietNam.</p>
-
-                            <p> Currently, I am a third-year student at the University of Information Technology (UIT-VNUHCM).</p>
-
+                            <p> Hi Everyone, I am Nguyen Dang Tan from the Pearl Island of Phu Quoc, VietNam. </p>
                             <p> I am a friendly and humorous person who enjoys socializing and sharing experiences with others.</p>
                         </div>
                     </div>
@@ -92,8 +89,8 @@ const About = () => {
                     <SocialMedia
                         youtube={APP_DATA.YOUTUBE_URL}
                         facebook={APP_DATA.FACEBOOK_URL}
-                        tiktok={APP_DATA.TIKTOK_URL}
-                        instagram={APP_DATA.INSTAGRAM_URL}
+                        github={APP_DATA.GITHUB_URL}
+                        linkedin={APP_DATA.LINKEDIN_URL}
                     />
                 </Col >
                 <Col md={6} xs={12} className="d-flex flex-column align-items-center justify-content-center">

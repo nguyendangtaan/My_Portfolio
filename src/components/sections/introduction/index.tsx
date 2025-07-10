@@ -26,9 +26,9 @@ const Introduction = () => {
                         {t("introSection.heading1")}
                         <br />
                         <br />{t("introSection.heading2")}
-                        <i>
-                            <b className='text-pink-100'> Typescript {t("introSection.and")} Javascript. </b>
-                        </i>
+                        {/* <i>
+                            <b className='text-pink-100'>  {t("introSection.and")}  </b>
+                        </i> */}
                         <br />
                         <br />
                         {t("introSection.heading3")} &nbsp;
@@ -40,14 +40,13 @@ const Introduction = () => {
                         <br />
                         <br />
                         {t("introSection.heading5")}
-                        <i><b className='text-pink-100'>&nbsp;ReactJS</b> </i>
+                        {/* <i><b className='text-pink-100'>&nbsp;</b> </i>
                         {t("introSection.and")}
                         <i>
                             <b className='text-pink-100'>
                                 {" "}
-                                Laravel
                             </b>
-                        </i>
+                        </i> */}
 
                     </p>
                 </Col>

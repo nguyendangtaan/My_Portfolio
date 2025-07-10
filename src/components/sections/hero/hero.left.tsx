@@ -9,6 +9,7 @@ import { AiFillFire } from "react-icons/ai";
 
 interface IProps {
     scrollToExperienceSection: () => void;
+    scrollToSkillSection: () => void;
 }
 const HeroLeft = (props: IProps) => {
 
@@ -39,7 +40,7 @@ const HeroLeft = (props: IProps) => {
                 options={{
                     strings: [
                         "Software Developer",
-                        "MERN Stack Developer",
+                        "Backend Developer",
                         "Open Source Contributor",
                     ],
                     autoStart: true,
@@ -54,13 +55,13 @@ const HeroLeft = (props: IProps) => {
                 <SocialMedia
                     youtube={APP_DATA.YOUTUBE_URL}
                     facebook={APP_DATA.FACEBOOK_URL}
-                    tiktok={APP_DATA.TIKTOK_URL}
-                    instagram={APP_DATA.INSTAGRAM_URL}
+                    github={APP_DATA.GITHUB_URL}
+                    linkedin={APP_DATA.LINKEDIN_URL}
                 />
             </div>
             <div className="d-md-flex d-none gap-4">
                 <ResizeButton
-                    onClick={props.scrollToExperienceSection}
+                    onClick={props.scrollToSkillSection}
                     btnText={t("heroSection.exp")}
                     btnIcons={<AiFillFire style={{ color: "orange" }} />}
                     btnStyle={{

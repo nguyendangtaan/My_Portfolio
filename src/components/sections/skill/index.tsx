@@ -3,9 +3,11 @@ import { skillsImage } from "helpers/skill.image";
 import Marquee from "react-fast-marquee";
 import './skill.scss';
 import { Col, Row } from "react-bootstrap";
+import { useCurrentApp } from "components/context/app.context";
 import { useTranslation } from "react-i18next";
 
 const Skill = () => {
+    const { theme } = useCurrentApp();
     const { t } = useTranslation();
     return (
         <Row className="skills-container">
