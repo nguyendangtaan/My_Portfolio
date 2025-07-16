@@ -1,5 +1,5 @@
 import AuroraImg from 'assets/project/aurora.png';
-import newImg from 'assets/project/new.jpeg';
+import FlutterImg from 'assets/project/Flutter.jpg';
 import FigmaImg from 'assets/project/figma.jpg';
 import Laravel_vue from 'assets/project/Laravel_vue.jpg';
 
@@ -76,6 +76,16 @@ export const PROJECTS = [
         team_size: "1",
         githubLink: "https://github.com/nguyendangtaan/Ecommerce_Laravel_Vuejs.git",
         demoLink: ""
+    },
+    {
+        id: 4,
+        imgPath: FlutterImg,
+        title: "Agricultural E-commerce Mobile Application",
+        description: "Built a cross-platform mobile application using Flutter for online agricultural shopping. Key features include user authentication, product catalog, shopping cart, wishlist, order management, and light/dark theme support.",
+        techstack: "Flutter, Dart, Provider for state management",
+        team_size: "1",
+        githubLink: "https://github.com/nguyendangtaan/Admin_App_taphoa_4.0.git",
+        demoLink: "https://github.com/nguyendangtaan/Admin_App_taphoa_4.0.git"
     },
     
 ]
