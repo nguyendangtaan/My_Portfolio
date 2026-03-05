@@ -16,34 +16,18 @@ export const EXPERIENCES = [
     {
         id: 1,
         title: {
-            vi: "",
-            en: ""
+            vi: "Web Developer Fresher tại Công ty FPT Telecom",
+            en: "Web Developer Fresher at FPT Telecom"
         },
         company: {
-            vi: "",
-            en: ""
+            vi: "Công ty FPT Telecom",
+            en: "FPT Telecom"
         },
         duration: {
-            vi: "",
-            en: ""
+            vi: "8-2025 đến Hiện tại",
+            en: "Aug 2025 - Present"
         }
-    },
-    {
-        id: 2,
-        title: {
-            vi: "",
-            en: ""
-        },
-
-        company: {
-            vi: "",
-            en: ""
-        },
-        duration: {
-            vi: "",
-            en: ""
-        }
-    },
+    }
 ]
 
 export const PROJECTS = [
