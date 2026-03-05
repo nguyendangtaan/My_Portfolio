@@ -16,8 +16,8 @@ export const EXPERIENCES = [
     {
         id: 1,
         title: {
-            vi: "Web Developer Fresher tại Công ty FPT Telecom",
-            en: "Web Developer Fresher at FPT Telecom"
+            vi: "Web Developer Fresher",
+            en: "Web Developer Fresher"
         },
         company: {
             vi: "Công ty FPT Telecom",
